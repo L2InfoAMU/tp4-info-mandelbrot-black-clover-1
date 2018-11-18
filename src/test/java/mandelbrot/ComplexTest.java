@@ -147,4 +147,6 @@ public class ComplexTest {
         assertEquals(new Complex(1.5,0), Complex.ONE.scale(1.5));
         assertEquals(new Complex(0,1.5), Complex.I.scale(1.5));
     }
+
+
 }
