@@ -140,4 +140,11 @@ public class ComplexTest {
         assertEquals(1, Complex.I.squaredModulus());
         assertEquals(5, new Complex(2,1).squaredModulus());
     }
+
+    @Test
+    void testScale(){
+        assertEquals(new Complex(0,0), Complex.ZERO.scale(2));
+        assertEquals(new Complex(1.5,0), Complex.ONE.scale(1.5));
+        assertEquals(new Complex(0,1.5), Complex.I.scale(1.5));
+    }
 }
