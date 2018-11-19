@@ -176,5 +176,12 @@ public class ComplexTest {
         assertEquals(onePlusI, Complex.ZERO.add(onePlusI));
     }
 
+    @Test
+    void testReal(){
+        assertEquals(new Complex(2,0), Complex.real(2));
+        assertEquals(new Complex(5,0), Complex.real(5));
+        assertEquals(new Complex(10,0), Complex.real(10));
+    }
+
 
 }
