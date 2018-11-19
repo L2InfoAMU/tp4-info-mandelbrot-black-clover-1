@@ -83,7 +83,7 @@ public class Complex {
      */
     public Complex add(Complex addend) {
         return new Complex(this.real + addend.imaginary,
-                this.real + addend.imaginary);
+                this.imaginary + addend.imaginary);
     }
 
     /**
