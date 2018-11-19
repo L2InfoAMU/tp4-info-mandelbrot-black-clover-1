@@ -7,4 +7,4 @@ Le but du TP sera de corriger le code de la classe `Complex` en s'aidant de test
 
 ## Membres du projet
 
-- YOUSSOUF Zaïnir Groupe 2
+- YOUSSOUF Zaïnir Groupe 1

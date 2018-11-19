@@ -155,5 +155,12 @@ public class ComplexTest {
         assertEquals(new Complex(0,0), Complex.I.multiply(Complex.ZERO));
     }
 
+    @Test
+    void testPow(){
+        assertEquals(Complex.ONE, onePlusI.pow(0));
+        assertEquals(oneMinusI, oneMinusI.pow(1));
+        assertEquals(new Complex(0,2), onePlusI.pow(2));
+    }
+
 
 }
