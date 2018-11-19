@@ -64,7 +64,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>viewer.NewMain</mainClass>
+                    <mainClass>viewer.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

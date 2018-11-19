@@ -173,6 +173,7 @@ public class ComplexTest {
     void testAdd(){
         assertEquals(new Complex(2,1), Complex.ONE.add(onePlusI));
         assertEquals(new Complex(2,0), oneMinusI.add(onePlusI));
+        assertEquals(new Complex(4,3), onePlusI.add(new Complex(3,2)));
         assertEquals(onePlusI, Complex.ZERO.add(onePlusI));
     }
 
